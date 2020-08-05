@@ -1,0 +1,20 @@
+{
+    "pluginName": "fund",
+    "description": "基金查看",
+    "author": "JosephHai",
+    "main": "dist/index.html",
+    "logo": "fund.png",
+    "version": "0.0.1",
+    "features": [
+        {
+            "code": "myfund",
+            "explain": "我的自选",
+            "cmds": ["myfund", "mf"]
+        },
+        {
+            "code": "searchfund",
+            "explain": "搜索基金",
+            "cmds": ["searchfund", "sf"]
+        }
+    ]
+}
